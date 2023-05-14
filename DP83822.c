@@ -1,4 +1,4 @@
-"// SPDX-License-Identifier: GPL-2.0
+// SPDX-License-Identifier: GPL-2.0
 /* Driver for the Texas Instruments DP83822, DP83825 and DP83826 PHYs.
  *
  * Copyright (C) 2017 Texas Instruments Inc.
@@ -613,5 +613,4 @@ MODULE_DEVICE_TABLE(mdio, dp83822_tbl);
 
 MODULE_DESCRIPTION("Texas Instruments DP83822 PHY driver");
 MODULE_AUTHOR("Dan Murphy <dmurphy@ti.com");
-MODULE_LICENSE("GPL v2");"
- https://git.ti.com/cgit/ti-linux-kernel/ti-linux-kernel/plain/drivers/net/phy/dp83822.c?h=ti-linux-5.4.y#:~:text=//%20SPDX%2DLicense%2DIdentifier,MODULE_LICENSE(%22GPL%20v2%22)%3B
+MODULE_LICENSE("GPL v2");
